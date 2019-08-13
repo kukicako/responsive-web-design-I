@@ -115,7 +115,7 @@ footer{
 		margin-right:auto;
 	}
 	.circle {
-	 display:none;
+  display:none;
  }
 .IOD{
 	width:100%;
@@ -157,8 +157,105 @@ footer{
 	.bottomcontent .content{
 		width:100%;
 	}
+}
 
 
+/*-------------------------------<services>----------------------------------*/
+body{
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:5px;
+}
+.logoservice{
+	width:10%;
+	height:40px;
+	padding-bottom:40px;
+}
+.para{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	border-top:2px solid black;
+	margin-top:25px;
+	margin-bottom:25px;
+	padding-top:25px;
+	padding-bottom:25px;
+	width:100%;
+	justify-content: space-between;
+}
 
+.digital{
+	width:40%;
+	height:200px;
+	border:1px solid black;
+	margin:15px;
+	padding:15px;
+	background-color:#ededed;
+	margin-right:0%;
+	margin-left:0%;
+	
+}
+.digitalright{
+	margin-right:0%;
+	width:40%;
+}
+.learnmore{
+	display:flex;
+	border:1px solid black;
+	background:white;
+	text-align: center;
+	padding-top:5px; 
+	padding-bottom:5px;
+	padding-left:25px;
+	padding-right: 25px;
+	top:18px;
+	margin:8px;
+	border-radius: 10px;
 
 }
+
+.text{
+	margin-bottom: 1px;
+	
+}
+.lastsection{
+	display:flex;
+	border-top:2px solid black;
+	margin-top:25px;
+	margin-bottom:25px;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+.bottomtext{
+	display:flex;
+	flex-direction: column;
+	padding:4px;
+	margin-right:25px;
+	width:50%;
+}
+.final-image{
+	display:flex;
+	width:50%;
+	height: 350px;
+
+}
+.services-header-img{
+	width:100%;
+	height:250PX;
+}
+h1{
+	font-size:30px;
+}
+.services-info-img{
+	width:100%;
+}
+.navigation{
+	display:flex;
+}
+
+@media screen and (max-width: 800px){
+	nav .logoservice{
+		display:flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		}
